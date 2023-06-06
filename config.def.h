@@ -73,6 +73,7 @@ static const char *lockcmd[] = { "i3lock.sh", NULL };
 static const char *volupcmd[] = { "volumeup.sh", NULL };
 static const char *voldowncmd[] = { "volumedown.sh", NULL };
 static const char *newsboatcmd[] = { "newsboat.sh", NULL };
+static const char *wificmd[] = { "wifi.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -86,6 +87,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_F2,	   spawn,	   {.v = voldowncmd } },
 	{ MODKEY,			XK_n,	   spawn,	   {.v = newsboatcmd } },
 	{ MODKEY,			XK_c,	   spawn,	   {.v = irccmd } },
+	{ MODKEY|ShiftMask,		XK_w,	   spawn,	   {.v = wificmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
