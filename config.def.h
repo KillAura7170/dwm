@@ -87,7 +87,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_F2,	   spawn,	   {.v = voldowncmd } },
 	{ MODKEY,			XK_n,	   spawn,	   {.v = newsboatcmd } },
 	{ MODKEY,			XK_c,	   spawn,	   {.v = irccmd } },
-	{ MODKEY|ShiftMask,		XK_w,	   spawn,	   {.v = wificmd } },
+	{ MODKEY,			XK_q,	   spawn,	   {.v = wificmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
