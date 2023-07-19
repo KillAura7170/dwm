@@ -1,6 +1,6 @@
 Requirements
 ------------
-sudo pacman --needed -S xorg-server xorg-xinit xorg-xrandr xcompmgr alacritty dmenu i3lock ranger newsboat alsa-lib alsa-util moc git feh
+sudo pacman --needed -S xorg-server xorg-xinit xorg-xrandr xcompmgr alacritty dmenu i3lock ranger newsboat alsa-lib alsa-util mpd mpc ncmpcpp git feh
 
 
 Installation
